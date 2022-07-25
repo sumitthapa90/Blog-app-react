@@ -1,0 +1,58 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("https://virtualcustoms.net/attachment.php?attachmentid=52695&d=1330551210");
+  background-size: cover;
+  position: relative;
+}
+
+.registerTitle {
+  font-size: 50px;
+  color: white;
+}
+
+.registerPageForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerPageForm > label {
+  margin: 10px 0;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.registerInput {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}

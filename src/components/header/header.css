@@ -1,0 +1,28 @@
+.header {
+  margin-top: 60px;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+.titleS {
+  position: absolute;
+  top: 5rem;
+  font-size: 20px;
+}
+
+.titleL {
+  position: absolute;
+  top: 6.2rem;
+  font-size: 100px;
+}
+
+.headerImg {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  margin-top: 45px;
+}
